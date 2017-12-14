@@ -13,6 +13,14 @@
 		0701F4B81FDF75E70093DD99 /* CDTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0701F4B71FDF75E70093DD99 /* CDTabBar.m */; };
 		0701F4BB1FDF77930093DD99 /* CDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0701F4BA1FDF77930093DD99 /* CDTabBarController.m */; };
 		0701F4BE1FDF77B60093DD99 /* CDTabBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0701F4BD1FDF77B60093DD99 /* CDTabBarConfig.m */; };
+		0701F4C81FE275550093DD99 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 0701F4C01FE275530093DD99 /* home.png */; };
+		0701F4C91FE275550093DD99 /* service.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0701F4C11FE275540093DD99 /* service.gif */; };
+		0701F4CA1FE275550093DD99 /* service.png in Resources */ = {isa = PBXBuildFile; fileRef = 0701F4C21FE275540093DD99 /* service.png */; };
+		0701F4CB1FE275550093DD99 /* home.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0701F4C31FE275540093DD99 /* home.gif */; };
+		0701F4CC1FE275550093DD99 /* my.png in Resources */ = {isa = PBXBuildFile; fileRef = 0701F4C41FE275540093DD99 /* my.png */; };
+		0701F4CD1FE275550093DD99 /* my.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0701F4C51FE275540093DD99 /* my.gif */; };
+		0701F4CE1FE275550093DD99 /* timeline.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0701F4C61FE275550093DD99 /* timeline.gif */; };
+		0701F4CF1FE275550093DD99 /* timeline.png in Resources */ = {isa = PBXBuildFile; fileRef = 0701F4C71FE275550093DD99 /* timeline.png */; };
 		07CF364C1FDE6CFE002774B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CF364B1FDE6CFE002774B1 /* AppDelegate.m */; };
 		07CF364F1FDE6CFE002774B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CF364E1FDE6CFE002774B1 /* ViewController.m */; };
 		07CF36521FDE6CFE002774B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CF36501FDE6CFE002774B1 /* Main.storyboard */; };
@@ -33,6 +41,15 @@
 		0701F4BA1FDF77930093DD99 /* CDTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDTabBarController.m; sourceTree = "<group>"; };
 		0701F4BC1FDF77B60093DD99 /* CDTabBarConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDTabBarConfig.h; sourceTree = "<group>"; };
 		0701F4BD1FDF77B60093DD99 /* CDTabBarConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDTabBarConfig.m; sourceTree = "<group>"; };
+		0701F4C01FE275530093DD99 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		0701F4C11FE275540093DD99 /* service.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = service.gif; sourceTree = "<group>"; };
+		0701F4C21FE275540093DD99 /* service.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = service.png; sourceTree = "<group>"; };
+		0701F4C31FE275540093DD99 /* home.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = home.gif; sourceTree = "<group>"; };
+		0701F4C41FE275540093DD99 /* my.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my.png; sourceTree = "<group>"; };
+		0701F4C51FE275540093DD99 /* my.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = my.gif; sourceTree = "<group>"; };
+		0701F4C61FE275550093DD99 /* timeline.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = timeline.gif; sourceTree = "<group>"; };
+		0701F4C71FE275550093DD99 /* timeline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeline.png; sourceTree = "<group>"; };
+		0701F4D01FE279930093DD99 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		07CF36471FDE6CFE002774B1 /* GifDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07CF364A1FDE6CFE002774B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		07CF364B1FDE6CFE002774B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -60,6 +77,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0701F4BF1FE2753E0093DD99 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0701F4C31FE275540093DD99 /* home.gif */,
+				0701F4C01FE275530093DD99 /* home.png */,
+				0701F4C51FE275540093DD99 /* my.gif */,
+				0701F4C41FE275540093DD99 /* my.png */,
+				0701F4C11FE275540093DD99 /* service.gif */,
+				0701F4C21FE275540093DD99 /* service.png */,
+				0701F4C61FE275550093DD99 /* timeline.gif */,
+				0701F4C71FE275550093DD99 /* timeline.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		0701F4D31FE27CE60093DD99 /* CDTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				0701F4B31FDF71EA0093DD99 /* CDTabBarItem.h */,
+				0701F4B41FDF71EA0093DD99 /* CDTabBarItem.m */,
+				0701F4B61FDF75E70093DD99 /* CDTabBar.h */,
+				0701F4B71FDF75E70093DD99 /* CDTabBar.m */,
+				0701F4B91FDF77930093DD99 /* CDTabBarController.h */,
+				0701F4BA1FDF77930093DD99 /* CDTabBarController.m */,
+				0701F4BC1FDF77B60093DD99 /* CDTabBarConfig.h */,
+				0701F4BD1FDF77B60093DD99 /* CDTabBarConfig.m */,
+				0701F4D01FE279930093DD99 /* Common.h */,
+			);
+			path = CDTabBar;
+			sourceTree = "<group>";
+		};
 		07CF363E1FDE6CFE002774B1 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +129,7 @@
 		07CF36491FDE6CFE002774B1 /* GifDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0701F4BF1FE2753E0093DD99 /* images */,
 				07CF364A1FDE6CFE002774B1 /* AppDelegate.h */,
 				07CF364B1FDE6CFE002774B1 /* AppDelegate.m */,
 				07CF364D1FDE6CFE002774B1 /* ViewController.h */,
@@ -92,14 +141,7 @@
 				07CF36591FDE6CFE002774B1 /* main.m */,
 				0701F4A81FDE7D010093DD99 /* ani.gif */,
 				0701F4A61FDE7B240093DD99 /* redPoint@2x.png */,
-				0701F4B31FDF71EA0093DD99 /* CDTabBarItem.h */,
-				0701F4B41FDF71EA0093DD99 /* CDTabBarItem.m */,
-				0701F4B61FDF75E70093DD99 /* CDTabBar.h */,
-				0701F4B71FDF75E70093DD99 /* CDTabBar.m */,
-				0701F4B91FDF77930093DD99 /* CDTabBarController.h */,
-				0701F4BA1FDF77930093DD99 /* CDTabBarController.m */,
-				0701F4BC1FDF77B60093DD99 /* CDTabBarConfig.h */,
-				0701F4BD1FDF77B60093DD99 /* CDTabBarConfig.m */,
+				0701F4D31FE27CE60093DD99 /* CDTabBar */,
 			);
 			path = GifDemo;
 			sourceTree = "<group>";
@@ -182,11 +224,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0701F4CF1FE275550093DD99 /* timeline.png in Resources */,
 				0701F4A91FDE7D010093DD99 /* ani.gif in Resources */,
 				0701F4A71FDE7B240093DD99 /* redPoint@2x.png in Resources */,
+				0701F4C81FE275550093DD99 /* home.png in Resources */,
+				0701F4CE1FE275550093DD99 /* timeline.gif in Resources */,
 				07CF36571FDE6CFE002774B1 /* LaunchScreen.storyboard in Resources */,
 				07CF36541FDE6CFE002774B1 /* Assets.xcassets in Resources */,
+				0701F4CC1FE275550093DD99 /* my.png in Resources */,
 				07CF36521FDE6CFE002774B1 /* Main.storyboard in Resources */,
+				0701F4C91FE275550093DD99 /* service.gif in Resources */,
+				0701F4CB1FE275550093DD99 /* home.gif in Resources */,
+				0701F4CA1FE275550093DD99 /* service.png in Resources */,
+				0701F4CD1FE275550093DD99 /* my.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

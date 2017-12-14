@@ -10,8 +10,8 @@
 #import "CDTabBarItem.h"
 #import "CDTabBar.h"
 #import "CDTabBarConfig.h"
+#import "Common.h"
 
-static CGFloat cdTabBarHeight = 49.0;
 
 @interface CDTabBarController () <CDTabBarDelegate>
 

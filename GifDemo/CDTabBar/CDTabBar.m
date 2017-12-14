@@ -8,6 +8,7 @@
 
 #import "CDTabBar.h"
 #import "CDTabBarItem.h"
+#import "Common.h"
 
 @interface CDTabBar ()  <CDTabBarItemDelegate>
 
@@ -42,13 +43,13 @@
 - (void)setupItems {
     
     CGFloat width = CGRectGetWidth(self.frame)/self.cdItems.count;
-    CGFloat height = CGRectGetHeight(self.frame);
+//    CGFloat height = CGRectGetHeight(self.frame);
     
     for (int i = 0; i < self.cdItems.count; i++) {
         
         CDTabBarItem *item = [self.cdItems objectAtIndex:i];
 //        item.frame = CGRectMake(i*width, item.isSelected ? - 10 : 0, width, height + (item.isSelected ? 10 : 0));
-        [item updateFrameWithPointX:i*width width:width height:height];
+        [item updateFrameWithPointX:i*width width:width height:cdTabBarItemHeight];
         [self addSubview:item];
         item.delegate = self;
     }

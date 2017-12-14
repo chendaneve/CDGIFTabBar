@@ -28,13 +28,14 @@
         config.selectedColor = [UIColor redColor];
 //        config.normalImages = @[@"ani.gif", @"ani.gif", @"ani.gif"];
         config.normalColor = [UIColor blackColor];
-        config.normalImages = @[@"redPoint", @"redPoint", @"redPoint"];
-        config.selectedImages = @[@"ani.gif", @"ani.gif", @"ani.gif"];
-        config.titles = @[@"111111111", @"23333333322", @"333"];
+        config.normalImages = @[@"home", @"my", @"service", @"timeline"];
+        config.selectedImages = @[@"home.gif", @"my.gif", @"service.gif", @"timeline.gif"];
+        config.titles = @[@"111111111", @"23333333322", @"333", @"时间"];
         config.viewControllers = @[ [UIViewController new],
-                                          [UIViewController new],
-                                          [UIViewController new]
-                                          ];
+                                    [UIViewController new],
+                                    [UIViewController new],
+                                    [UIViewController new]
+                                ];
         return config;
         
     }];

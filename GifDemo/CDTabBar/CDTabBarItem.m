@@ -7,6 +7,7 @@
 //
 
 #import "CDTabBarItem.h"
+#import "Common.h"
 
 static NSInteger defaultTag = 100000;
 
@@ -108,7 +109,7 @@ static NSInteger defaultTag = 100000;
 }
 
 - (void)updateFrameWithPointX:(CGFloat)pointX width:(CGFloat)width height:(CGFloat)height {
-    self.frame = CGRectMake(pointX, _isSelected ? - 10 : 0, width, height + (_isSelected ? 10 : 0));
+    self.frame = CGRectMake(pointX, _isSelected ? - cdTabBarItemOffsetHeight : 0, width, height + (_isSelected ? cdTabBarItemOffsetHeight : 0));
 }
 
 - (void)updateIconImage {
