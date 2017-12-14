@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "CDTabBarConfig.h"
+#import "CDTabBarController.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +19,28 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    CDTabBarController *tabController =  [CDTabBarController createTabBarController:^CDTabBarConfig *(CDTabBarConfig *config) {
+        
+        config.selectedColor = [UIColor redColor];
+//        config.normalImages = @[@"ani.gif", @"ani.gif", @"ani.gif"];
+        config.normalColor = [UIColor blackColor];
+        config.normalImages = @[@"redPoint", @"redPoint", @"redPoint"];
+        config.selectedImages = @[@"ani.gif", @"ani.gif", @"ani.gif"];
+        config.titles = @[@"111111111", @"23333333322", @"333"];
+        config.viewControllers = @[ [UIViewController new],
+                                          [UIViewController new],
+                                          [UIViewController new]
+                                          ];
+        return config;
+        
+    }];
+    
+    self.window.rootViewController = tabController;
+    
     // Override point for customization after application launch.
     return YES;
 }

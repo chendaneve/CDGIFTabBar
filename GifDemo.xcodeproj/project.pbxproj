@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0701F4A71FDE7B240093DD99 /* redPoint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0701F4A61FDE7B240093DD99 /* redPoint@2x.png */; };
+		0701F4A91FDE7D010093DD99 /* ani.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0701F4A81FDE7D010093DD99 /* ani.gif */; };
+		0701F4B51FDF71EA0093DD99 /* CDTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0701F4B41FDF71EA0093DD99 /* CDTabBarItem.m */; };
+		0701F4B81FDF75E70093DD99 /* CDTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0701F4B71FDF75E70093DD99 /* CDTabBar.m */; };
+		0701F4BB1FDF77930093DD99 /* CDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0701F4BA1FDF77930093DD99 /* CDTabBarController.m */; };
+		0701F4BE1FDF77B60093DD99 /* CDTabBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0701F4BD1FDF77B60093DD99 /* CDTabBarConfig.m */; };
 		07CF364C1FDE6CFE002774B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CF364B1FDE6CFE002774B1 /* AppDelegate.m */; };
 		07CF364F1FDE6CFE002774B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CF364E1FDE6CFE002774B1 /* ViewController.m */; };
 		07CF36521FDE6CFE002774B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CF36501FDE6CFE002774B1 /* Main.storyboard */; };
 		07CF36541FDE6CFE002774B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07CF36531FDE6CFE002774B1 /* Assets.xcassets */; };
 		07CF36571FDE6CFE002774B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CF36551FDE6CFE002774B1 /* LaunchScreen.storyboard */; };
 		07CF365A1FDE6CFE002774B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CF36591FDE6CFE002774B1 /* main.m */; };
+		83A9AE8227EBC111DE23E967 /* libPods-GifDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34530CB6FFEF3677EF5BD03B /* libPods-GifDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0701F4A61FDE7B240093DD99 /* redPoint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "redPoint@2x.png"; sourceTree = "<group>"; };
+		0701F4A81FDE7D010093DD99 /* ani.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ani.gif; sourceTree = "<group>"; };
+		0701F4B31FDF71EA0093DD99 /* CDTabBarItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDTabBarItem.h; sourceTree = "<group>"; };
+		0701F4B41FDF71EA0093DD99 /* CDTabBarItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDTabBarItem.m; sourceTree = "<group>"; };
+		0701F4B61FDF75E70093DD99 /* CDTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDTabBar.h; sourceTree = "<group>"; };
+		0701F4B71FDF75E70093DD99 /* CDTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDTabBar.m; sourceTree = "<group>"; };
+		0701F4B91FDF77930093DD99 /* CDTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDTabBarController.h; sourceTree = "<group>"; };
+		0701F4BA1FDF77930093DD99 /* CDTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDTabBarController.m; sourceTree = "<group>"; };
+		0701F4BC1FDF77B60093DD99 /* CDTabBarConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDTabBarConfig.h; sourceTree = "<group>"; };
+		0701F4BD1FDF77B60093DD99 /* CDTabBarConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDTabBarConfig.m; sourceTree = "<group>"; };
 		07CF36471FDE6CFE002774B1 /* GifDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07CF364A1FDE6CFE002774B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		07CF364B1FDE6CFE002774B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +43,9 @@
 		07CF36561FDE6CFE002774B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07CF36581FDE6CFE002774B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07CF36591FDE6CFE002774B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34530CB6FFEF3677EF5BD03B /* libPods-GifDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GifDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		598C5D51A3AFEA3610B13CBE /* Pods-GifDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GifDemo/Pods-GifDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BE74AA58639651A05419D205 /* Pods-GifDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GifDemo/Pods-GifDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83A9AE8227EBC111DE23E967 /* libPods-GifDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +65,8 @@
 			children = (
 				07CF36491FDE6CFE002774B1 /* GifDemo */,
 				07CF36481FDE6CFE002774B1 /* Products */,
+				18815A99A05EAEC72B3279C0 /* Pods */,
+				E287DD64D0A05497BC60C0FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,8 +90,35 @@
 				07CF36551FDE6CFE002774B1 /* LaunchScreen.storyboard */,
 				07CF36581FDE6CFE002774B1 /* Info.plist */,
 				07CF36591FDE6CFE002774B1 /* main.m */,
+				0701F4A81FDE7D010093DD99 /* ani.gif */,
+				0701F4A61FDE7B240093DD99 /* redPoint@2x.png */,
+				0701F4B31FDF71EA0093DD99 /* CDTabBarItem.h */,
+				0701F4B41FDF71EA0093DD99 /* CDTabBarItem.m */,
+				0701F4B61FDF75E70093DD99 /* CDTabBar.h */,
+				0701F4B71FDF75E70093DD99 /* CDTabBar.m */,
+				0701F4B91FDF77930093DD99 /* CDTabBarController.h */,
+				0701F4BA1FDF77930093DD99 /* CDTabBarController.m */,
+				0701F4BC1FDF77B60093DD99 /* CDTabBarConfig.h */,
+				0701F4BD1FDF77B60093DD99 /* CDTabBarConfig.m */,
 			);
 			path = GifDemo;
+			sourceTree = "<group>";
+		};
+		18815A99A05EAEC72B3279C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				598C5D51A3AFEA3610B13CBE /* Pods-GifDemo.debug.xcconfig */,
+				BE74AA58639651A05419D205 /* Pods-GifDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E287DD64D0A05497BC60C0FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34530CB6FFEF3677EF5BD03B /* libPods-GifDemo.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07CF365D1FDE6CFE002774B1 /* Build configuration list for PBXNativeTarget "GifDemo" */;
 			buildPhases = (
+				5BC14E9684F3DCE24387DA76 /* [CP] Check Pods Manifest.lock */,
 				07CF36431FDE6CFE002774B1 /* Sources */,
 				07CF36441FDE6CFE002774B1 /* Frameworks */,
 				07CF36451FDE6CFE002774B1 /* Resources */,
+				3DBEBF998B3D8684071A7067 /* [CP] Embed Pods Frameworks */,
+				D33F11D4FB2DCE9221DF09C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +182,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0701F4A91FDE7D010093DD99 /* ani.gif in Resources */,
+				0701F4A71FDE7B240093DD99 /* redPoint@2x.png in Resources */,
 				07CF36571FDE6CFE002774B1 /* LaunchScreen.storyboard in Resources */,
 				07CF36541FDE6CFE002774B1 /* Assets.xcassets in Resources */,
 				07CF36521FDE6CFE002774B1 /* Main.storyboard in Resources */,
@@ -137,11 +192,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3DBEBF998B3D8684071A7067 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GifDemo/Pods-GifDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BC14E9684F3DCE24387DA76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D33F11D4FB2DCE9221DF09C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GifDemo/Pods-GifDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		07CF36431FDE6CFE002774B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0701F4BE1FDF77B60093DD99 /* CDTabBarConfig.m in Sources */,
+				0701F4B81FDF75E70093DD99 /* CDTabBar.m in Sources */,
+				0701F4BB1FDF77930093DD99 /* CDTabBarController.m in Sources */,
+				0701F4B51FDF71EA0093DD99 /* CDTabBarItem.m in Sources */,
 				07CF364F1FDE6CFE002774B1 /* ViewController.m in Sources */,
 				07CF365A1FDE6CFE002774B1 /* main.m in Sources */,
 				07CF364C1FDE6CFE002774B1 /* AppDelegate.m in Sources */,
@@ -276,6 +383,7 @@
 		};
 		07CF365E1FDE6CFE002774B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 598C5D51A3AFEA3610B13CBE /* Pods-GifDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +398,7 @@
 		};
 		07CF365F1FDE6CFE002774B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE74AA58639651A05419D205 /* Pods-GifDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
