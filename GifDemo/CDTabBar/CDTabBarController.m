@@ -46,6 +46,11 @@
     return [CDTabBarController createTabBarController:nil];
 }
 
+- (void)setHidesBottomBarWhenPushed:(BOOL)hidesBottomBarWhenPushed {
+    self.customTabBar.hidden = hidesBottomBarWhenPushed;
+    self.tabBar.hidden = YES;
+}
+
 - (void)hiddenTabBarWithAnimation:(BOOL)isAnimation {
     
     if (isAnimation) {

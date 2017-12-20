@@ -11,7 +11,7 @@
 #import "CDTabBarController.h"
 #import "ViewController.h"
 
-@interface AppDelegate ()
+@interface AppDelegate () <UINavigationControllerDelegate>
 
 @end
 
@@ -31,8 +31,12 @@
         config.normalImages = @[@"home", @"my", @"service", @"timeline"];
         config.selectedImages = @[@"home.gif", @"my.gif", @"service.gif", @"timeline.gif"];
         config.titles = @[@"111111111", @"23333333322", @"333", @"时间"];
+        
+        UINavigationController *nv =  [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
+        nv.title = @"uyion";
+        nv.delegate = self;
         config.viewControllers = @[ [UIViewController new],
-                                    [UIViewController new],
+                                    nv,
                                     [UIViewController new],
                                     [UIViewController new]
                                 ];
@@ -46,6 +50,16 @@
     return YES;
 }
 
+- (void)navigationController:(UINavigationController *)navigationController
+      willShowViewController:(UIViewController *)viewController
+                    animated:(BOOL)animated
+{
+    if (navigationController.viewControllers.count > 1) {
+        viewController.tabBarController.hidesBottomBarWhenPushed = YES;
+    } else {
+        viewController.tabBarController.hidesBottomBarWhenPushed = NO;
+    }
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

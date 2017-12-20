@@ -27,6 +27,9 @@
 		07CF36541FDE6CFE002774B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07CF36531FDE6CFE002774B1 /* Assets.xcassets */; };
 		07CF36571FDE6CFE002774B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CF36551FDE6CFE002774B1 /* LaunchScreen.storyboard */; };
 		07CF365A1FDE6CFE002774B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CF36591FDE6CFE002774B1 /* main.m */; };
+		07FD1D5E1FEA0D2900474201 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FD1D5D1FEA0D2900474201 /* NextViewController.m */; };
+		07FD1D611FEA12C900474201 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FD1D601FEA12C900474201 /* BaseViewController.m */; };
+		07FD1D641FEA136600474201 /* BaseNavigatioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FD1D631FEA136600474201 /* BaseNavigatioController.m */; };
 		83A9AE8227EBC111DE23E967 /* libPods-GifDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34530CB6FFEF3677EF5BD03B /* libPods-GifDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +63,12 @@
 		07CF36561FDE6CFE002774B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07CF36581FDE6CFE002774B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07CF36591FDE6CFE002774B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07FD1D5C1FEA0D2900474201 /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		07FD1D5D1FEA0D2900474201 /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		07FD1D5F1FEA12C900474201 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		07FD1D601FEA12C900474201 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		07FD1D621FEA136600474201 /* BaseNavigatioController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigatioController.h; sourceTree = "<group>"; };
+		07FD1D631FEA136600474201 /* BaseNavigatioController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigatioController.m; sourceTree = "<group>"; };
 		34530CB6FFEF3677EF5BD03B /* libPods-GifDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GifDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		598C5D51A3AFEA3610B13CBE /* Pods-GifDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GifDemo/Pods-GifDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		BE74AA58639651A05419D205 /* Pods-GifDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GifDemo/Pods-GifDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,6 +143,10 @@
 				07CF364B1FDE6CFE002774B1 /* AppDelegate.m */,
 				07CF364D1FDE6CFE002774B1 /* ViewController.h */,
 				07CF364E1FDE6CFE002774B1 /* ViewController.m */,
+				07FD1D5C1FEA0D2900474201 /* NextViewController.h */,
+				07FD1D5D1FEA0D2900474201 /* NextViewController.m */,
+				07FD1D5F1FEA12C900474201 /* BaseViewController.h */,
+				07FD1D601FEA12C900474201 /* BaseViewController.m */,
 				07CF36501FDE6CFE002774B1 /* Main.storyboard */,
 				07CF36531FDE6CFE002774B1 /* Assets.xcassets */,
 				07CF36551FDE6CFE002774B1 /* LaunchScreen.storyboard */,
@@ -142,6 +155,8 @@
 				0701F4A81FDE7D010093DD99 /* ani.gif */,
 				0701F4A61FDE7B240093DD99 /* redPoint@2x.png */,
 				0701F4D31FE27CE60093DD99 /* CDTabBar */,
+				07FD1D621FEA136600474201 /* BaseNavigatioController.h */,
+				07FD1D631FEA136600474201 /* BaseNavigatioController.m */,
 			);
 			path = GifDemo;
 			sourceTree = "<group>";
@@ -296,12 +311,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0701F4BE1FDF77B60093DD99 /* CDTabBarConfig.m in Sources */,
+				07FD1D611FEA12C900474201 /* BaseViewController.m in Sources */,
 				0701F4B81FDF75E70093DD99 /* CDTabBar.m in Sources */,
 				0701F4BB1FDF77930093DD99 /* CDTabBarController.m in Sources */,
 				0701F4B51FDF71EA0093DD99 /* CDTabBarItem.m in Sources */,
 				07CF364F1FDE6CFE002774B1 /* ViewController.m in Sources */,
+				07FD1D5E1FEA0D2900474201 /* NextViewController.m in Sources */,
 				07CF365A1FDE6CFE002774B1 /* main.m in Sources */,
 				07CF364C1FDE6CFE002774B1 /* AppDelegate.m in Sources */,
+				07FD1D641FEA136600474201 /* BaseNavigatioController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
